@@ -36,11 +36,11 @@ const updateImage = index => {
 }
 
 window.addEventListener('scroll', () => {
-  const scrollTop = document.body.scrollTop;
+  const scrollTop = Math.max(document.body.scrollTop, 0);
   const maxScrollTop = html.scrollHeight - window.innerHeight;
   const scrollFraction = scrollTop / maxScrollTop;
   const frameIndex = Math.min(frameCount,  Math.ceil(scrollFraction * frameCount) + 1)
-  
+
   requestAnimationFrame(() => updateImage(frameIndex))
 });
 
