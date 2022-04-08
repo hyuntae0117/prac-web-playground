@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+section {
+  position: relative;
+  height: 1300px;
+}
+
+#section01 {
+  background-color: beige;
+}
+
+#section02 {
+  background-color: aquamarine;
+}
+
+#section03 {
+  background-color: cadetblue;
+}
+
+
+.item {
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.gone {
+  position: absolute;
+  bottom: 0;
+  background-color: green !important;
+}
+
+.focused {
+  position: fixed;
+  top:0;
+  background-color: gold !important;
+}
+
+#item01 {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+#item02 {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+#item03 {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.focused {
+  position: fixed;
+  top:0;
+}
