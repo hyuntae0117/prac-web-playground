@@ -1,0 +1,30 @@
+header {
+  background-color: wheat;
+  text-align: center;
+}
+
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-image: url(image/playground.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-banner h1 {
+  margin-bottom: 40px;
+}
+
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+.hero-banner h1 span {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
