@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.anim01 span {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.anim01 .fade {
+  opacity: 1;
+}
+
+
+.anim02 span {
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: (50px); 
+}
+
+.anim02 
